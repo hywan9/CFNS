@@ -1,6 +1,6 @@
 # CFNS
 
-This repo is the official implementation for the paper: [Forecasting of carbon flux via noise seperation of time series data]().
+This repo is the official implementation for the paper: **Forecasting of carbon flux via noise seperation of time series data**.
 
 ## Introduction
 CFNS (Carbon Flux Noise Separation) is a lightweight yet effective framework for multivariate carbon flux forecasting. It integrates reversible normalization, trend–seasonal decomposition, and wavelet-based denoising to separate meaningful temporal patterns from stochastic noise. By adaptively modeling key environmental variables such as temperature, humidity, radiation, and energy fluxes, CFNS captures both stable ecosystem dynamics and short-term fluctuations. Experiments on real-world eddy-covariance datasets show that CFNS achieves superior forecasting accuracy and robustness compared to recent deep learning and linear baselines. This repository provides the implementation of CFNS for reproducible research in carbon cycle modeling and environmental time series prediction.
